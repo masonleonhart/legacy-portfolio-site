@@ -9,6 +9,7 @@ nav li {
 
 .links a{
   cursor: pointer;
+  position: relative;
 }
 
 .links a:active {
