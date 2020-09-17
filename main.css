@@ -9,8 +9,8 @@ nav li {
 
 .links a{
   cursor: pointer;
-  position: relative;
   text-align: center;
+  position: relative;
 }
 
 .links a:active {
