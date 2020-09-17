@@ -1,15 +1,14 @@
 body {
-  margin-left: 16rem;
   background: url(https://img.glyphs.co/img?q=85&w=900&src=aHR0cHM6Ly9zMy5tZWRpYWxvb3QuY29tL3Jlc291cmNlcy9HZW9tZXRyaWMtQmFja2dyb3VuZC1QYXR0ZXJucy1QcmV2aWV3LTJiLmpwZw==);
 }
 
 .contact {
-
+  border-bottom: 2px solid black;
 }
 .name {
   font-size: 48px;
 }
 
 .info {
-  color: DimGrey;
+  
 }
