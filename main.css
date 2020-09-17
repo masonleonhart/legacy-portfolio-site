@@ -1,9 +1,10 @@
 body {
+  text-align: center;
   background: url(https://img.glyphs.co/img?q=85&w=900&src=aHR0cHM6Ly9zMy5tZWRpYWxvb3QuY29tL3Jlc291cmNlcy9HZW9tZXRyaWMtQmFja2dyb3VuZC1QYXR0ZXJucy1QcmV2aWV3LTJiLmpwZw==);
 }
 
 .contact {
- 
+
 }
 .name {
   font-size: 48px;
