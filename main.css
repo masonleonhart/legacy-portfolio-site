@@ -1,3 +1,7 @@
+body {
+  background: <img src="https://greatescapepublishing.com/wp-content/uploads/thephotographerslife/wp-content/media//2012/01/Canvas.jpg"/>
+}
+
 .contact {
   text-align: center;
 }
@@ -7,5 +11,4 @@
 
 .info {
   color: DimGrey;
-
 }
