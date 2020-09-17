@@ -4,6 +4,7 @@ body {
 
 nav li {
   display: inline;
+  margin: 100px;
 }
 
 .links a{
@@ -11,7 +12,7 @@ nav li {
 }
 
 .links a:active {
-  top: 20px;
+  top: 200px;
 }
 
 .contact {
