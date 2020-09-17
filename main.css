@@ -10,10 +10,11 @@ nav li {
 .links a{
   cursor: pointer;
   position: relative;
+  text-align: center;
 }
 
 .links a:active {
-  top: 200px;
+  top: 2px;
 }
 
 .contact {
