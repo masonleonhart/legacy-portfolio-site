@@ -13,12 +13,17 @@
 }
 
 .contact {
-  border-bottom: 2px solid black;
   background-color: #115ed1;
 }
 
 .footer {
   background-color: #8c663a;
+  display: inline;
+}
+
+.col-sim-1 {
+  height: 400px;
+  width: 400px;
 }
 
 .social-links {
