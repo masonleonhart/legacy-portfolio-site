@@ -35,6 +35,10 @@ header .col {
   text-decoration: none;
 }
 
+.dropdown-menu li {
+   list-style-type: none;
+}
+
 .placeholderphoto img {
   height: 200px;
   border-style: solid;
