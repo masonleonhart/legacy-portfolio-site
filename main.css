@@ -8,25 +8,14 @@ body {
   background: -o-linear-gradient(135deg, rgba(140,102,58,1) 0%, rgba(15,60,120,1) 100%);
   background: -ms-linear-gradient(135deg, rgba(140,102,58,1) 0%, rgba(15,60,120,1) 100%);
   background: linear-gradient(315deg, rgba(140,102,58,1) 0%, rgba(15,60,120,1) 100%);
-  height: 4000px;
   margin: 0px;
-}
-
-header .row,
-footer .row {
-  display: flex;
-  align-items: center;
-}
-
-header {
-  background-color: #115ed1;
 }
 
 .jumbotron {
   background: url(https://images.squarespace-cdn.com/content/v1/5e208638d0ad06563a49fa73/1580407468639-ZQ7U3NNOLI3ABQAA2DU0/ke17ZwdGBToddI8pDm48kNLmoMgP9-PoGL3pTpvfmf97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZn9JnVc0xDeoNGVJ3wrjE4Nx_EhhKi4CB_8Hn-bafWShA1iIgJHGOspu562nPK3kQ/North-Dakota-Badlands-Fine-Art-Photography.JPG?format=2500w);
 }
 
-.placeholderphoto {
+.placeholderphoto img{
   height: 200px;
 }
 
@@ -39,10 +28,8 @@ header {
   float: right;
 }
 
-.footer {
-  background-color: #8c663a;
 }
 
-.footer img {
+footer img {
   height: 200px;
 }
