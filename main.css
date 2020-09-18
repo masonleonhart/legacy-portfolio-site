@@ -2,23 +2,14 @@
   background: url(https://images.squarespace-cdn.com/content/v1/5e208638d0ad06563a49fa73/1580407468639-ZQ7U3NNOLI3ABQAA2DU0/ke17ZwdGBToddI8pDm48kNLmoMgP9-PoGL3pTpvfmf97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZn9JnVc0xDeoNGVJ3wrjE4Nx_EhhKi4CB_8Hn-bafWShA1iIgJHGOspu562nPK3kQ/North-Dakota-Badlands-Fine-Art-Photography.JPG?format=2500w);
 }
 
-.links a{
-  cursor: pointer;
-  text-align: center;
-  position: relative;
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
 }
 
-.links a:active {
-  top: 2px;
-}
-
-.contact {
+.header {
   background-color: #115ed1;
-}
-
-.footer {
-  background-color: #8c663a;
-  display: inline;
 }
 
 .social-links {
@@ -30,10 +21,6 @@
   float: right;
 }
 
-.name {
-  font-size: 48px;
-}
-
-.info {
-
+.footer {
+  background-color: #8c663a;
 }
