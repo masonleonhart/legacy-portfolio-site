@@ -1,3 +1,12 @@
+html {
+    height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0px;
+}
+
 .main-body {
   background: url(https://images.squarespace-cdn.com/content/v1/5e208638d0ad06563a49fa73/1580407468639-ZQ7U3NNOLI3ABQAA2DU0/ke17ZwdGBToddI8pDm48kNLmoMgP9-PoGL3pTpvfmf97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZn9JnVc0xDeoNGVJ3wrjE4Nx_EhhKi4CB_8Hn-bafWShA1iIgJHGOspu562nPK3kQ/North-Dakota-Badlands-Fine-Art-Photography.JPG?format=2500w);
 }
