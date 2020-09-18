@@ -17,19 +17,9 @@ body {
 
 .placeholderphoto img{
   height: 200px;
+  margin: 0px;
 }
 
-.social-links {
-  height: 400px;
-  width: 400px;
-}
-
-.social-links {
-  float: right;
-}
-
-}
-
-footer img {
+footer img{
   height: 200px;
 }
