@@ -17,8 +17,12 @@
   background-color: #115ed1;
 }
 
-.footer{
+.footer {
   background-color: #8c663a;
+}
+
+.social-links {
+  float: right;
 }
 
 .name {
