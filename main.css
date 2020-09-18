@@ -19,6 +19,13 @@ header {
 
 header .col {
   margin-top: 10px;
+  color: white;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .placeholderphoto img {
