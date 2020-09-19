@@ -38,14 +38,14 @@ header dev.container {
   padding-left: 0px;
 }
 
-header .contactinfo {
+header .contactInfo {
   position: absolute;
   left: 232px;
   height: 200px;
   width: 200px;
 }
 
-header .contactinfo p {
+header .contactInfo p {
   margin: 0px;
 }
 
