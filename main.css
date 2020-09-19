@@ -53,6 +53,13 @@ header .beLegendary p {
   font-size: 52px;
 }
 
+header .ndoutline {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  height: 200px;
+}
+
 footer {
   position: fixed;
   bottom: 0px;
