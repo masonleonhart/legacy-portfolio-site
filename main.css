@@ -31,17 +31,26 @@ header section.jumbotron {
   padding-right: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
+  position: relative;
 }
 
 header dev.container {
   padding-left: 0px;
 }
-
-.placeholderphoto img {
+header .mephoto  {
   height: 200px;
   border-style: solid;
   border-color: white;
   border-width: 10px;
+}
+
+header .beLegendary p {
+  margin-bottom: 0px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-weight: bold;
+  font-size: 52px;
 }
 
 footer {
