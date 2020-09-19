@@ -47,8 +47,8 @@ header .mephoto  {
 header .beLegendary p {
   margin-bottom: 0px;
   position: absolute;
-  bottom: 10px;
-  left: 10px;
+  bottom: 8px;
+  left: 16px;
   font-weight: bold;
   font-size: 52px;
 }
