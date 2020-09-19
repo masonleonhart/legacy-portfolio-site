@@ -37,11 +37,16 @@ header section.jumbotron {
 header dev.container {
   padding-left: 0px;
 }
-header .mephoto  {
+
+header .contactinfo {
+  position: absolute;
+  left: 232px;
   height: 200px;
-  border-style: solid;
-  border-color: white;
-  border-width: 10px;
+  width: 200px;
+}
+
+header .contactinfo p {
+  margin: 0px;
 }
 
 header .beLegendary p {
@@ -51,6 +56,13 @@ header .beLegendary p {
   left: 16px;
   font-weight: bold;
   font-size: 52px;
+}
+
+header .mephoto  {
+  height: 200px;
+  border-style: solid;
+  border-color: white;
+  border-width: 10px;
 }
 
 header .ndoutline {
