@@ -58,6 +58,7 @@ header .ndoutline {
   bottom: 10px;
   right: 10px;
   height: 200px;
+  margin-bottom: -35px;
 }
 
 footer {
