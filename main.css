@@ -13,16 +13,16 @@ body {
   color: white;
 }
 
-header .navbar a {
+div .navbar a {
   color: black;
   text-decoration: none;
 }
 
-header .dropdown-menu li {
+div .dropdown-menu li {
    list-style-type: none;
 }
 
-header section.jumbotron {
+div section.jumbotron {
   background: url(NDBadlands.jpg);
   background-size: cover;
   background-position: center;
@@ -34,22 +34,22 @@ header section.jumbotron {
   position: relative;
 }
 
-header dev.container {
+div .container {
   padding-left: 0px;
 }
 
-header .contactInfo {
+div .contactInfo {
   position: absolute;
   left: 232px;
   height: 200px;
   width: 200px;
 }
 
-header .contactInfo p {
+div .contactInfo p {
   margin: 0px;
 }
 
-header .beLegendary p {
+div .beLegendary p {
   margin-bottom: 0px;
   position: absolute;
   bottom: 8px;
@@ -58,14 +58,14 @@ header .beLegendary p {
   font-size: 52px;
 }
 
-header .mephoto  {
+div .mephoto  {
   height: 200px;
   border-style: solid;
   border-color: white;
   border-width: 10px;
 }
 
-header .ndoutline {
+div .ndoutline {
   position: absolute;
   bottom: 10px;
   right: 10px;
