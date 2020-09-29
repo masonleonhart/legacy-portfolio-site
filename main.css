@@ -26,11 +26,11 @@ div section.jumbotron {
   background: url(NDBadlands.jpg);
   background-size: cover;
   background-position: center;
-  height: 514px;
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
+  height: 514px;
 }
 
 .container.contactInfo {
@@ -52,18 +52,19 @@ div section.jumbotron {
   align-items: flex-end;
   font-weight: bold;
   font-size: 52px;
+  height: 100%;
 }
 
 .ndoutline {
   height: 200px;
 }
 
-footer {
-  position: fixed;
-  bottom: 0px;
-  left: 304px;
+.footer {
+ display: flex;
+ align-items: flex-end;
+
 }
 
-footer img {
+.footer img {
   height: 100px;
 }
