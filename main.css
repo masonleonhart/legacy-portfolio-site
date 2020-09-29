@@ -1,7 +1,3 @@
-html {
-    height: 100%;
-}
-
 body {
   background: -moz-linear-gradient(135deg, rgba(140,102,58,1) 0%, rgba(15,60,120,1) 100%);
   background: -webkit-linear-gradient(135deg, rgba(140,102,58,1) 0%, rgba(15,60,120,1) 100%);
@@ -11,6 +7,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: white;
+  position: absolute;
+  height: 100%;
 }
 
 div .navbar a {
@@ -60,9 +58,11 @@ div section.jumbotron {
 }
 
 .footer {
+ height: 100%;
  display: flex;
+ justify-content: center;
+ justify-content: space-around;
  align-items: flex-end;
-
 }
 
 .footer img {
