@@ -35,8 +35,6 @@ body {
 }
 
 .mephoto {
-  height: 200px;
-  width: 200px;
   border-style: solid;
   border-color: white;
   border-width: 10px;
@@ -49,10 +47,6 @@ body {
   font-weight: bold;
   font-size: 52px;
   height: 100%;
-}
-
-.ndoutline {
-  height: 200px;
 }
 
 .footer {
