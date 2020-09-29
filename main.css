@@ -18,7 +18,7 @@ body {
    list-style-type: none;
 }
 
-.header.jumbotron {
+.jumbotron.header {
   background: url(NDBadlands.jpg);
   background-size: cover;
   background-position: center;
