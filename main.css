@@ -31,46 +31,31 @@ div section.jumbotron {
   padding-right: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
-  position: relative;
 }
 
-div .container {
-  padding-left: 0px;
+.container.contactInfo {
+  display: flex;
+  flex-direction: row;
 }
 
-div .contactInfo {
-  position: absolute;
-  left: 232px;
+.mephoto {
   height: 200px;
   width: 200px;
-}
-
-div .contactInfo p {
-  margin: 0px;
-}
-
-div .beLegendary p {
-  margin-bottom: 0px;
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-  font-weight: bold;
-  font-size: 52px;
-}
-
-div .mephoto  {
-  height: 200px;
   border-style: solid;
   border-color: white;
   border-width: 10px;
 }
 
-div .ndoutline {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
+.container.beLegendary {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-weight: bold;
+  font-size: 52px;
+}
+
+.ndoutline {
   height: 200px;
-  margin-bottom: -35px;
 }
 
 footer {
