@@ -32,11 +32,14 @@ body {
   padding-top: 8px;
   padding-bottom: 8px;
   height: 514px;
+  position: relative;
 }
 
 .container.contactInfo {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 0;
 }
 
 .mephoto {
@@ -47,17 +50,56 @@ body {
   border-width: 10px;
 }
 
+.contactList {
+  list-style: none;
+  padding-left: 16px;
+}
+
+.legendaryList {
+  margin-bottom: 0;
+  list-style: none;
+  padding-left: 0px;
+}
+
 .container.beLegendary {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  flex-wrap: wrap;
   font-weight: bold;
   font-size: 52px;
   height: 100%;
+  position: absolute;
+  top: 0;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.be {
+  margin-bottom: -35px;
 }
 
 .ndoutline {
   height: 200px;
+  margin-bottom: -35px;
+  margin-top: -300px;
+}
+
+@media (max-width: 576px) {
+  .contactList {
+    margin-left: -16px;
+  }
+  .legendaryList {
+    font-size: 36px;
+    margin-top: 60px;
+    margin-bottom: -100px;
+  }
+  .be {
+    margin-bottom: -20px;
+  }
+  .ndoutline {
+    margin-left: -20px
+  }
 }
 
 .footer {
