@@ -95,7 +95,7 @@ body {
 @media (max-width: 576px) {
   .contactList {
     margin-left: -24px;
-    font-size: 24;
+    font-size: 24px;
     margin-top: -4px;
   }
   .contactList li{
