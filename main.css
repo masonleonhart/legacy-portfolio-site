@@ -95,7 +95,7 @@ body {
 @media (max-width: 576px) {
   .contactList {
     margin-left: -24px;
-    font-size: 24px;
+    font-size: 20px;
     margin-top: -4px;
   }
   .contactList li{
@@ -110,7 +110,7 @@ body {
     margin-bottom: -20px;
   }
   .ndoutline {
-    margin-left: -20px
+    margin-left: -25px
   }
 }
 
