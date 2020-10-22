@@ -114,6 +114,10 @@ body {
   }
 }
 
+br {
+  margin: 8px;
+}
+
 .groupTitle {
   font-size: 52px;
   font-weight: bold;
