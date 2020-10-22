@@ -121,6 +121,10 @@ body {
   justify-content: center;
 }
 
+.place {
+  text-decoration-line: underline;
+}
+
 .footer {
  height: 100%;
  display: flex;
