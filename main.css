@@ -124,6 +124,7 @@ body {
 .place {
   text-decoration-line: underline;
   font-size: 36px;
+  margin-top: 32px;
 }
 
 .address {
