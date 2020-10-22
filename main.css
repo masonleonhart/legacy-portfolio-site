@@ -114,6 +114,13 @@ body {
   }
 }
 
+.groupTitle {
+  font-size: 52px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
 .footer {
  height: 100%;
  display: flex;
