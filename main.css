@@ -114,16 +114,22 @@ body {
   }
 }
 
-br {
-  margin: 8px;
-  display: block;
-}
-
 .groupTitle {
   font-size: 52px;
   font-weight: bold;
   display: flex;
   justify-content: center;
+}
+
+.aboutMe1 {
+  font-weight: 500;
+  fot-size: 24px;
+  margin-top: 32px;
+}
+
+.aboutMe {
+  font-weight: 500;
+  fot-size: 24px;
 }
 
 .place {
