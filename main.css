@@ -116,6 +116,7 @@ body {
 
 br {
   margin: 8px;
+  display: block;
 }
 
 .groupTitle {
