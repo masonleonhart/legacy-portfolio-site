@@ -1,0 +1,57 @@
+#colorChanger {
+  cursor: pointer;
+}
+
+.counter {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  grid-template-rows: repeat(2, 100px);
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.screen {
+  grid-column: span 2;
+  background: grey;
+  color: white;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.counterButton {
+  cursor: pointer;
+  font-size: 1.5rem;
+  border: 1px solid black;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.counterButton:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  grid-template-rows: minmax(60px, auto) repeat(5, 50px);
+}
+
+.calculatorScreen {
+  grid-column: span 4;
+  background: grey;
+  color: white;
+  border: 1px solid black;
+}
+
+.screenValues {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0;
+}
+
+.spanTwo {
+  grid-column: span 2;
+}

@@ -1,0 +1,88 @@
+body {
+  background-color: #3AAFA9;
+  color: #17252A;
+}
+
+header {
+  background-color: #17252A;
+  color: #DEF2F1;
+}
+
+#info {
+  background-color: #FEFFFF;
+  border: 5px solid #2B7A78;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-around;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+#burb {
+  border: 2px solid #17252A;
+  margin-bottom: 8px
+}
+
+#garage {
+  background-color: #FEFFFF;
+  border: 5px solid #2B7A78;
+  border-radius: 5px;
+}
+
+#inputCol {
+  visibility: hidden;
+  padding-top: 8px;
+}
+
+#parkingCol {
+  display: flex;
+  justify-content: center;
+}
+
+#parkingSpaces {
+  width: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, auto);
+  margin-bottom: 8px;
+  margin-top: 8px;
+  justify-content: center;
+}
+
+.parkingTop {
+  border: 2px solid black;
+  border-bottom: none;
+  border-left: none;
+  height: 200px;
+}
+
+#spanThree {
+  grid-column: span 3;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parkingBottom {
+  border: 2px solid black;
+  border-top: none;
+  border-left: none;
+  height: 200px;
+}
+
+#buttonSpot1, #buttonSpot4 {
+  border-left: 2px solid black;
+}
+
+.carImg {
+  max-width: 100%;
+  height: auto;
+}
+
+#outputCol {
+  visibility: hidden;
+}
