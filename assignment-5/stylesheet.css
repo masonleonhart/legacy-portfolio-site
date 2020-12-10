@@ -101,6 +101,7 @@ display: none;
 
 .albumImage {
   width: 88px;
+  height: 88px;
 }
 
 .albumInfo {
@@ -122,6 +123,7 @@ display: none;
 #infoImg {
   margin: 8px;
   width: 300px;
+  height: 100px;
 }
 
 #_infoBackBtn {
