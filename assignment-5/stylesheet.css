@@ -6,7 +6,7 @@ body {
 
 header {
   background-color: #802BB1;
-  color: #D1D7E0;
+  color: white;
   border-radius: 5px;
 }
 
@@ -20,36 +20,57 @@ header h2 {
   margin-bottom: 1rem;
 }
 
-#storeFront {
+.container {
   background-color: #D1D7E0;
   border: 5px solid #2D283e;
   border-radius: 5px;
   display: flex;
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+#storeFront {
   flex-direction: column;
 }
 
-#addRevealBtn {
+#search {
+  margin: 4px 4px 4px 4px;
+}
+
+#add {
+  margin: 0px 4px 4px 4px;
+}
+
+#_addRevealBtn {
   float: right;
+  background-color: #802BB1;
+  border: none;
 }
 
 #addRecordRow {
 display: none;
 }
 
-#addRecordBtn {
+#_addRecordBtn {
   float: right;
+  background-color: #802BB1;
+  border: none;
 }
 
-#searchRevealBtn {
+#_searchRevealBtn {
   float: right;
+  background-color: #802BB1;
+  border: none;
 }
 
 #searchRecordRow {
   display: none;
 }
 
-#searchBtn {
+#_searchBtn {
   float: right;
+  background-color: #802BB1;
+  border: none;
 }
 
 #noResults {
@@ -65,11 +86,17 @@ display: none;
 
 .albumDisplay {
   display: flex;
+  background-color: rgba(255, 255, 255, 0.5);
+  outline: none;
   height: 100px;
   width: 300px;
   margin: 8px;
   padding: 4px;
   border: 2px solid #2D283e;
+}
+
+.albumDisplay:hover {
+  background-color: rgba(255, 255, 255, .9);
 }
 
 .albumImage {
@@ -86,4 +113,34 @@ display: none;
 
 .albumInfo p{
   margin: 0;
+}
+
+#infoDisplay {
+  display: none;
+}
+
+#infoImg {
+  margin: 8px;
+  width: 300px;
+}
+
+#_infoBackBtn {
+  float: right;
+  background-color: #802BB1;
+  border: none;
+  margin-top: 4px;
+  margin-right: 4px;
+}
+
+#infoContent {
+  width: 100%;
+}
+
+#songList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.song {
+  margin-left: 8px;
 }
