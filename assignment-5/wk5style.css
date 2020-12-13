@@ -167,6 +167,10 @@ header h2 {
   text-align: center;
 }
 
+#albumList2 {
+  height: 450px;
+}
+
 #cartTotalAndCheckout {
   display: flex;
   justify-content: flex-end;

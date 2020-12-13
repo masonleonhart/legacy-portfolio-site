@@ -128,6 +128,7 @@ const viewCartBtn = () => {
   $(`#homeDisplay`).hide();
   $('#cartDisplay').show();
   costTotal = costTotal.toFixed(2);
+  costTotal = Number(costTotal);
   $('#_costTotal').append(`$${costTotal}`);
   for (let i = 0; i < collection.length; i++) {
     $(`#albumList2`).append(
