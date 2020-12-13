@@ -1,0 +1,192 @@
+body {
+  background-color: #fc4445;
+  background-image: url(record.png);
+  background-size: auto;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header h2 {
+  text-align: center;
+  padding-bottom: .5rem;
+  margin-bottom: 1rem;
+}
+
+.container {
+  background-color: #feffff;
+  border: 5px solid black;
+  border-radius: 5px;
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+#homeDisplay {
+  margin-top: 100px;
+  padding: 200px;
+}
+
+#storeHome {
+  display: flex;
+  justify-content: space-around;
+}
+
+#questionsHeader {
+  margin-top: 16px;
+  text-align: center;
+}
+
+#addDisplay, #searchDisplay, #collectionDisplay, #cartDisplay, #infoDisplay {
+  display: none;
+}
+
+.textAndBackBtnDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+._backBtn, #_infoBackBtn {
+  float: right;
+  margin-top: 8px;
+  margin-right: 8px;
+  height: 38px;
+}
+
+.displayText {
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+.form {
+  margin: 8px;
+  width: 25%;
+}
+
+.form p {
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+#addContent, #searchContent {
+  display: flex;
+}
+
+#addSongContent, #infoContent, #searchResutContent {
+  width: 100%;
+}
+
+#addForm  {
+  margin-top: 48px;
+}
+
+#addSongList, #songList {
+  width: 100%;
+  margin-top: 8px;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(auto, auto);
+}
+
+.addSongItem {
+  display: flex;
+  margin-top: 8px;
+}
+
+.addSongItem p {
+  margin: 0;
+  margin-right: 8px;
+}
+
+#addSubmitBtnRow {
+  height: 46px;
+}
+
+#_addRecordBtn {
+  float: right;
+  margin-right: 8px;
+}
+
+#_searchSubmitBtn {
+  margin-top: 8px;
+}
+
+#noResults {
+  text-align: center;
+  display: none;
+}
+
+.albumList {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  height: 470px;
+}
+
+.albumDisplay {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.5);
+  outline: none;
+  height: 100px;
+  width: 300px;
+  margin: 8px;
+  padding: 4px;
+  border: 2px solid #2D283e;
+}
+
+.albumDisplay:hover {
+  background-color: rgba(255, 255, 255, .9);
+}
+
+.albumImage {
+  width: 88px;
+  height: 88px;
+}
+
+.albumInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.albumInfo p{
+  margin: 0;
+}
+
+#cartTY {
+  text-align: center;
+}
+
+#cartTotalAndCheckout {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#_costTotal {
+  margin: 0;
+  margin-top: 8px
+}
+
+#_cartCheckoutBtn {
+  height: 38px;
+  margin: 8px;
+}
+
+#infoImg {
+  margin: 8px;
+  width: 300px;
+  height: 300px;
+}
+
+.song {
+  margin-left: 8px;
+}
