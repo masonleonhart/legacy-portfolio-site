@@ -26,6 +26,7 @@ header h2 {
   border-radius: 5px;
   padding: 0;
   margin-bottom: 16px;
+  margin-top: 48px;
 }
 
 #homeDisplay {
@@ -127,7 +128,7 @@ header h2 {
   justify-content: space-around;
   flex-wrap: wrap;
   overflow-y: auto;
-  height: 470px;
+  height: 500px;
 }
 
 .albumDisplay {
